@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="SurveyForm.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <h4>Let us know how can we improve freeCodeCamp</h4>
+        <form>
+        <table class="table">
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input required="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input required="number" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td>Which option best describes your current role?</td>
+                <td>
+                    <select>
+                        <option value="">--select--</option>
+                        <option value="">Student</option>
+                        <option value="">Emloyee</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>How likely is that you recommend<br>freeCodeCamp to a friend: </p></td>
+                <td><input type="radio" name="vish">Definately<br>
+                <input type="radio" name="vish">May be<br>
+                <input type="radio" name="vish">Not sure</td>
+            </tr>
+            <tr>
+                <td>What do you like most in FCC :</td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                        <option>Comedy</option>
+                        <option>Horror</option>
+                        <option>Romantic</option>
+                        <option>Suspense Thriller</option>
+                    </select>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Things that should be improved in the future<br>(check all that apply) : </td>
+                <td><input type="checkbox">Font-end Projects<br>
+                <input type="checkbox">Back-end Projects<br>
+                <input type="checkbox">Data Visualization</td>
+            </tr>
+        </table>
+        <button type="submit"> submit</button> 
+         </form>
+    </body>
+</html>

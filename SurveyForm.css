@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    margin: 0px;
+    top: 0px;
+}
+h1{
+    background-color: rgb(131, 193, 212);
+    font-family: monospace;
+    margin: 0;
+}
+table{
+    text-align: right;
+    margin-left: 400px;
+}
